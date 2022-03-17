@@ -283,3 +283,94 @@ $gutter: 32px;
 .br-gray {
   border-right: 2px solid $black-normal;
 }
+
+.card-danger {
+  border: 2px solid $red-normal;
+  border-radius: 4px;
+
+  background-color: rgba(240, 61, 61, 0.2);
+}
+
+.card-success {
+  border: 2px solid $green-normal;
+  border-radius: 4px;
+
+  background-color: rgba(11, 176, 123, 0.2);
+}
+
+.card-warning {
+  border: 2px solid $yellow-normal;
+  border-radius: 4px;
+
+  background-color: rgba(255, 206, 82, 0.2);
+}
+
+.card-info {
+  border: 2px solid $primary-normal;
+  border-radius: 4px;
+
+  background-color: rgba(27, 105, 210, 0.2);
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+}
+
+.profile-big {
+  width: 128px;
+  height: 128px;
+
+  border-radius: 50%;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 2px solid $primary-normal;
+}
+
+.thumb {
+  img {
+    transform: scale(1.05);
+    transition: .5s ease;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.card {
+  border: 1px solid $black-light;
+  border-radius: 4px;
+  background-color: rgba(21, 27, 38, 0);
+
+  transition: .3s ease;
+
+  &:hover {
+    background-color: rgba(21, 27, 38, 03);
+  }
+}
+
+.img-banner {
+  width: 100%;
+  max-height: 420px;
+
+  border-radius: 4px;
+
+  img {
+    object-fit: cover;
+
+    transition: .5s ease;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.02);
+    }
+  }
+}
